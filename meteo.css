@@ -1,0 +1,53 @@
+body {
+    background-image: url(./nuages-blancs-moelleux-vecteur-dans-ciel-bleu_107791-1056.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100hv;
+  }
+  
+  .meteobox {
+    width: 98vw;
+    height: 98vh;
+  }
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  #icone,
+  #comment {
+    background-color: rgba(41, 128, 185, 0.75);
+  }
+  
+  #temp,
+  #precipitation,
+  #humidity {
+    background-color: rgba(43, 78, 181, 0.75);
+  }
+  #wind,
+  #pressure {
+    background-color: rgba(52, 152, 219, 0.75);
+  }
+  
+  #city,
+  #country {
+    background-color: rgba(35, 73, 177, 0.75);
+  }
+  
+  h1 {
+    color: white !important;
+    text-align: center !important;
+    text-shadow: grey 0px 0px 10px;
+  }
+  
