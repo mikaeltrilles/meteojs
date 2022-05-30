@@ -3,9 +3,9 @@
 
 // https://api.openweathermap.org/data/2.5/weather?q=Beziers&units=metric&lang=fr&appid={API key}
 
-// Ouvrir un compte et mettre votre clé API
+// Ouvrir un compte et mettre votre clé API dans la constante ci dessous
 
-const APIKEY = '5aca9dae9e59526a5ff9c19c21167752';
+const APIKEY = '';
 
 // Appel a l'API openweather avec la ville en parametre
 let apiCall = function (city) {
